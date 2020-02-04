@@ -1,0 +1,300 @@
+/*- Barra azul no topo das páginas -*/
+main{
+    border-top: 15px solid #0871BA;
+}
+
+/*------------- Menu -----------------------*/
+.logo_aero{
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.menu .navbar-nav .item{
+    color: rgb(8, 113, 186);
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+
+/*----- Alinha o menu a direita no mobile -------*/
+@media (max-width: 992px){
+    .menu .navbar-collapse .navbar-nav a{
+        padding-right: 0;
+        text-align: right;
+    }
+}
+
+
+/*----- Remove a border no mobile -------*/
+@media (min-width: 992px){
+    .menu .navbar-nav .item{
+        border-right: 3px solid #E5E5E5;
+    }
+}
+
+.menu .navbar-nav .ultimo_menu{
+    border-right: none;
+    padding-right: 0;
+}
+
+
+/*--------------- Footer --------------------*/
+footer{
+    color: white;
+    text-decoration: none;
+}
+
+.rodape .nav_footer .nav-item .nav-link{
+    color: white;
+}
+
+.logo_puc{
+    height: 40px;
+    padding-right: 50px;
+    border-right: 3px solid #FFF;
+}
+
+.rodape_padding{
+    padding-left: 40px;
+}
+
+/*---- Reduz a logo do rodapé no mobile ----*/
+@media (max-width: 992px){
+    .rodape .logo_aero{
+        height: 45px;
+    }
+    
+    .rodape .logo_puc{
+        height: 35px;
+        border-right: none;
+        padding-right: 0;
+    }
+    
+    .rodape_padding{
+        padding-left: 15px;
+    }
+    
+    .rodape_social{
+        margin-bottom: 30px;
+    }
+    @media (min-width: 768px){
+        .endereco{
+            margin-top:25px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.social{
+    margin-top: -3px;
+    height: 24px;
+    padding-right: 7px;
+}
+
+.alinha{
+    margin: auto;
+}
+
+footer{
+    background-color: #0871BA;
+    margin-top: 40px;
+}
+
+footer p{
+    margin-bottom: 8px;
+}
+
+/*---------------- Página -----------------*/
+.titulo_pag{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    border-bottom: 2px solid #0871BA;
+    margin: 40px 0;
+}
+
+.img-fluid{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (min-width: 992px){
+    p{
+        font-size: 1.1rem;
+    }
+    
+    .ponto_destaque{
+        font-size: 1rem;
+    }
+}
+
+/*----------- Patrocínios -----------------*/
+.titulo_h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #0871BA;
+    margin-top: 40px;
+}
+
+.primeiro_titulo{
+    margin-top: 0;
+}
+
+.patrocinios{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.patrocinios img{
+    padding: 20px 0;
+}
+
+.botao{
+    text-align: center;
+}
+
+.prog_pat{
+    padding: 30px 0;
+    margin: auto;
+}
+
+/*---- Formato do botão ----*/
+.btn{
+    border-radius: 0;
+    border: none;
+    background-color: #0871BA;
+}
+
+.espac{
+    margin-top: 40px;
+}
+
+
+/*----------------- Notícias -------------*/
+.noticia{
+    border-radius: 0;
+    margin-bottom: 40px;
+    background-color: #E5E5E5;
+}
+
+@media (min-width: 992px){
+    .noticia{
+        height: 370px;
+    }
+}
+
+.noticia .card-body .card-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+}
+
+.card-body .card-text{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card .card-img-top{
+    min-width: 343px;
+    min-height: 200px;
+    object-fit: cover;
+    text-align: center;
+    margin: auto;    
+}
+
+.noticia .card-body .botao{
+    text-align: right;
+}
+
+.noticia .mascara {
+    height: 200px;
+    overflow: hidden;
+}
+
+p .quote{
+    font-weight: 800;
+    border-left: 2px grey solid;
+}
+
+.noticia img{
+    border-radius: 0;
+}
+
+
+/*------------ Aviões ----------------------*/
+@media (max-width: 768px){
+    .east{
+        margin-top: 15px;
+    }
+}
+
+.img_peq{
+    width: 70%;
+}
+
+.icone{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.resumo_conquistas p{
+    margin-top: 1rem;
+}
+
+.linha_avioes h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+}
+
+.ano{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0871BA;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.img_aviao{
+    margin: 20px 0;
+}
+
+.txt_right{
+    text-align: right;
+}
+
+/*--- Dropdown com os anos ---*/
+.timeline{
+    margin-bottom: 25px;
+}
+
+.timeline .dropdown{
+    text-align: center;
+}
+
+.padding_right{
+    padding-right: 0;
+}
+
+.padding_left{
+    padding-left: 0;
+    padding-top: 1px;
+}
+
+.menu_anos{
+    border-bottom: 2px solid #0871BA;
+    padding-top: 1px;
+    text-align: right;
+}
+
+.dropdown-menu{
+    border-radius: 0;
+}
