@@ -298,3 +298,16 @@ p .quote{
 .dropdown-menu{
     border-radius: 0;
 }
+
+
+/*--- Popup do vídeo ---*/
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
