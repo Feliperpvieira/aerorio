@@ -298,3 +298,11 @@ p .quote{
 .dropdown-menu{
     border-radius: 0;
 }
+
+
+/*------------ Equipe ----------------------*/
+
+.eq_nome{
+    padding-top: 8px;
+    font-weight: 500;
+}
