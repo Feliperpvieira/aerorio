@@ -332,3 +332,7 @@ p .quote{
         justify-content: center;
     }
 }
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
+}
