@@ -138,6 +138,10 @@ footer p{
     }
 }
 
+.ponto_destaque strong{
+    color: #0871ba;
+}
+
 /*----------- Patrocínios -----------------*/
 .titulo_h4{
     font-family: 'Bebas Neue', sans-serif;
@@ -270,6 +274,7 @@ p .quote{
 .txt_right{
     text-align: right;
 }
+
 
 /*--- Dropdown com os anos ---*/
 .timeline{
