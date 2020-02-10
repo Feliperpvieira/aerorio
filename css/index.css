@@ -275,6 +275,11 @@ p .quote{
     text-align: right;
 }
 
+.video_colunapropria{
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
 
 /*--- Dropdown com os anos ---*/
 .timeline{
