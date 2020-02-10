@@ -185,6 +185,8 @@ footer p{
 
 
 /*----------------- Notícias -------------*/
+/*
+
 .noticia{
     border-radius: 0;
     margin-bottom: 40px;
@@ -234,6 +236,8 @@ p .quote{
     border-radius: 0;
 }
 
+*/
+
 
 /*------------ Aviões ----------------------*/
 @media (max-width: 768px){
@@ -275,10 +279,15 @@ p .quote{
     text-align: right;
 }
 
-.video_colunapropria{
-    padding-top: 5px;
-    margin-bottom: 20px;
+@media (min-width: 992px){
+    .video_colunapropria{
+        padding-top: 5px;
+        margin-bottom: 20px;
+    }
 }
+
+
+
 
 
 /*--- Dropdown com os anos ---*/
