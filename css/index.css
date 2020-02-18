@@ -138,8 +138,13 @@ footer p{
     }
 }
 
-.ponto_destaque strong{
+.link_video{
     color: #0871ba;
+}
+
+.link_video:hover{
+    border-bottom: 1px solid #0871ba;
+    font-weight: 500;
 }
 
 /*----------- Patrocínios -----------------*/
@@ -285,8 +290,6 @@ p .quote{
         margin-bottom: 20px;
     }
 }
-
-
 
 
 
