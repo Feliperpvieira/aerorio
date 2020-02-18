@@ -59,8 +59,39 @@
                     </section>
 
                 </header>
+                
+                </div> <!-- Fecha o container do menu -->
+                
 
+                
+                <!-- ----------- VÍDEO POPUP ----------- -->
+                <!-- Fora do container para o overlay poder ocupar a tela inteira.
+                Para adicionar novos vídeos que aparecem como popup adicionar 
+
+                <div class="vpop" data-type="youtube" data-id="6xcG6ttMDVY" data-autoplay='true'>Youtube</div>
+                
+                ou
+
+                <div class="vpop" data-type="vimeo" data-id="172052320" data-autoplay='true'>Vimeo</div>
+
+                e substituir o id com o id do vídeo.
+                Link para o código usado: https://codepen.io/bgold/pen/WxppOq
+                -->
+            
+                <div id="video-popup-overlay"></div>
+
+                <div id="video-popup-container">
+                  <div id="video-popup-close" class="fade">&#10006;</div>
+                  <div id="video-popup-iframe-container">
+                    <iframe id="video-popup-iframe" src="" width="100%" height="100%" frameborder="0"></iframe>
+                  </div>
+                </div>
+                
+ 
+                <div class="container"> <!-- Reabre o container pro resto da página -->
+                
                 <!-- ----------- Banner ----------- -->
+                    
                 <section class="row">
                     <div class="col-12">
 
@@ -166,7 +197,7 @@
 
                                 <!-- Vídeo de voo -->
                                 <div class="col-4 alinha txt_right">
-                                    <a href="https://youtu.be/aNQRvW5cpfI" target="_blank" class="ponto_destaque"><strong><img src="img/ic_play.svg" width="15"> Vídeo<span class="d-none d-md-inline"> de voo</span></strong></a>
+                                    <div class="vpop ponto_destaque" data-type="youtube" data-id="aNQRvW5cpfI" data-autoplay='true'><img src="img/ic_play.svg" width="15">Vídeo</div>
                                 </div>
                             </div>
 
@@ -297,7 +328,8 @@
 
                                 <!-- Vídeo de voo -->
                                 <div class="col-4 alinha txt_right">
-                                    <a href="https://youtu.be/oOi-l1F4jUA" target="_blank" class="ponto_destaque"><strong><img src="img/ic_play.svg" width="15"> Vídeo<span class="d-none d-md-inline"> de voo</span></strong></a>
+                                    <div class="vpop" data-type="youtube" data-id="oOi-l1F4jUA" data-autoplay='true'>Vídeo</div>
+                                    
                                 </div>
                             </div>
 
@@ -352,7 +384,7 @@
 
                                 <!-- Vídeo de voo -->
                                 <div class="col-4 alinha txt_right">
-                                    <a href="https://youtu.be/OTQ8jpJXcz8" target="_blank" class="ponto_destaque"><strong><img src="img/ic_play.svg" width="15"> Vídeo<span class="d-none d-md-inline"> de voo</span></strong></a>
+                                    <div class="vpop" data-type="youtube" data-id="OTQ8jpJXcz8" data-autoplay='true'>Vídeo</div>
                                 </div>
                             </div>
 
@@ -776,6 +808,10 @@
 
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            
+            <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+            <script src="js/index.js"></script>
+            
             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
