@@ -318,11 +318,11 @@ p .quote{
   width: 60%;
   left: 50%;
   margin-left: -30%;
-  top: 20%;
+  top: 15%;
   background-color: #fff;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     #video-popup-container {
       display:none;
       position: fixed;
@@ -330,7 +330,7 @@ p .quote{
       width: 90%;
       left: 10%;
       margin-left: -5%;
-      top: 20%;
+      top: 35%;
       background-color: #fff;
     }
 }
