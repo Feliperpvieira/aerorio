@@ -396,8 +396,10 @@ p .quote{
     text-align: center;
 }
 
-.padding_right{
-    padding-right: 0;
+@media (max-width: 768px){
+    .padding_right{
+        padding-right: 0;
+    }
 }
 
 .padding_left{
