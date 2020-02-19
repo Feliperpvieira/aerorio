@@ -138,15 +138,6 @@ footer p{
     }
 }
 
-.link_video{
-    color: #0871ba;
-}
-
-.link_video:hover{
-    border-bottom: 1px solid #0871ba;
-    font-weight: 500;
-}
-
 /*----------- Patrocínios -----------------*/
 .titulo_h4{
     font-family: 'Bebas Neue', sans-serif;
@@ -284,6 +275,10 @@ p .quote{
     text-align: right;
 }
 
+.ic-play{
+    padding-bottom: 2px;
+}
+
 @media (min-width: 992px){
     .video_colunapropria{
         padding-top: 5px;
@@ -291,95 +286,31 @@ p .quote{
     }
 }
 
-
-
-/*--- Dropdown com os anos ---*/
-.timeline{
-    margin-bottom: 25px;
-}
-
-.timeline .dropdown{
-    text-align: center;
-}
-
-.padding_right{
-    padding-right: 0;
-}
-
-.padding_left{
-    padding-left: 0;
-    padding-top: 1px;
-}
-
-.menu_anos{
-    border-bottom: 2px solid #0871BA;
-    padding-top: 1px;
-    text-align: right;
-}
-
-.dropdown-menu{
-    border-radius: 0;
-}
-
-
-/*------------ Equipe ----------------------*/
-
-.eq_nome{
-    padding-top: 8px;
-    font-weight: 500;
-}
-
-.eq_subcargo{
-    margin-bottom: 4px;
-}
-
-
-/*--- Scroll horizontal ---*/
-.scrolling-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-
-  .card {
-    flex: 0 0 auto;
-  }
-}
-
-.card{
+.link_video{
+    font-family: inherit; 
+    font-size: 100%; 
+    line-height: 1.15; 
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    -webkit-appearance: button;
+    
+    color: #0871ba;
+    background: none;
     border: none;
 }
 
-@media (min-width: 768px){
-    .scrolling-wrapper{
-        justify-content: center;
-    }
+.link_video span{
+    font-weight: 500;
 }
 
-.scrolling-wrapper {
-  -webkit-overflow-scrolling: touch;
+.link_video span:hover{
+    border-bottom: 1px solid #0871ba;
+    font-weight: bold;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------ CSS do Popup do vídeo ----------------------*/
 #video-popup-container {
   display:none;
   position: fixed;
@@ -453,4 +384,71 @@ p .quote{
 
 #video-popup-close:hover {
   color: #DE0023;
+}
+
+
+/*--- Dropdown com os anos ---*/
+.timeline{
+    margin-bottom: 25px;
+}
+
+.timeline .dropdown{
+    text-align: center;
+}
+
+.padding_right{
+    padding-right: 0;
+}
+
+.padding_left{
+    padding-left: 0;
+    padding-top: 1px;
+}
+
+.menu_anos{
+    border-bottom: 2px solid #0871BA;
+    padding-top: 1px;
+    text-align: right;
+}
+
+.dropdown-menu{
+    border-radius: 0;
+}
+
+
+/*------------ Equipe ----------------------*/
+
+.eq_nome{
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+.eq_subcargo{
+    margin-bottom: 4px;
+}
+
+
+/*--- Scroll horizontal ---*/
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+}
+
+.card{
+    border: none;
+}
+
+@media (min-width: 768px){
+    .scrolling-wrapper{
+        justify-content: center;
+    }
+}
+
+.scrolling-wrapper {
+  -webkit-overflow-scrolling: touch;
 }
