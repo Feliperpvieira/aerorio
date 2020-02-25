@@ -236,7 +236,7 @@ p .quote{
 
 
 /*------------ Aviões ----------------------*/
-@media (max-width: 768px){
+@media (max-width: 992px){
     .east{
         margin-top: 25px;
     }
@@ -264,7 +264,8 @@ p .quote{
     font-family: 'Bebas Neue', sans-serif;
     color: #0871BA;
     font-size: 32px;
-    margin-top: 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;
 }
 
 .img_aviao{
