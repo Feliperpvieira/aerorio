@@ -53,6 +53,10 @@ footer{
     text-decoration: none;
 }
 
+.rodape{
+    padding: 15px 0;
+}
+
 .rodape .nav_footer .nav-item .nav-link{
     color: white;
 }
@@ -84,7 +88,8 @@ footer{
     }
     
     .rodape_social{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        margin-top: 10px;
     }
     @media (min-width: 768px){
         .endereco{
