@@ -99,6 +99,20 @@ footer{
     }
 }
 
+@media (max-width: 576px){
+    .rodape_social{
+        padding-left: 15px;
+    }
+    
+    .rodape_redes_sm{
+        margin-top: 7px;
+    }
+    
+    .margin-r-sm-zero{
+        margin-right: 0;
+    }
+    
+}
 
 .social{
     margin-top: -3px;
