@@ -1,8 +1,8 @@
 /*- Modo ESCURO e CLARO, seguindo a definição do sistema -*/
 @media (prefers-color-scheme: dark) {
     :root {
-        --text-color: #ddd;
-        --background: #1f2226;
+        --text-color: #e6e6e6;
+        --background: #2e2f33;
         --menu-hover: white;
         --menu-fundo: #262626;
         --azul-aero: #0984dc;
@@ -246,6 +246,7 @@ footer p{
     margin-top: 40px;
 }
 
+/*---- Fundo claro atrás das imagens quando no modo escuro ----*/
 @media (prefers-color-scheme: dark) {
     .patrocinios img{
         background-color: #ddd;
@@ -273,6 +274,7 @@ footer p{
     margin-right: 10px;
 }
 
+/*---- Cor dos ícones fica mais claro no modo escuro ----*/
 @media (prefers-color-scheme: dark) {
     .icone{
         filter: contrast(10%) brightness(140%);
