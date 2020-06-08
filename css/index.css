@@ -1,14 +1,56 @@
+/*- Modo ESCURO e CLARO, seguindo a definição do sistema -*/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #ddd;
+        --background: #1f2226;
+        --menu-hover: white;
+        --menu-fundo: #262626;
+        --azul-aero: #0871ba;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --text-color: black;
+        --background: white;
+        --menu-hover: #4C4C4C;
+        --menu-fundo: white;
+        --azul-aero: #0871ba;
+    }
+}
+
+/*- Configura as cores de fundo e texto -*/
+body {
+    color: var(--text-color);
+    background: var(--background);
+}
+
+
+
 /*- Barra azul no topo das páginas -*/
 main{
-    border-top: 15px solid #0871BA;
+    border-top: 15px solid var(--azul-aero);
 }
 
 /*------------- Menu -----------------------*/
+
 .logo_aero{
     height: 60px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/*- Tranforma a logo do topo em branca quando no modo escuro -*/
+@media (prefers-color-scheme: dark) {
+    .logo_aero{
+        filter: grayscale(100%) contrast(10%) brightness(200%);
+    }
+    
+    /*- No mobile o menu hamburguer fica com fundo claro -*/
+    .navbar-toggler{
+        background-color: #ddd;
+    }
 }
 
 .menu{
@@ -24,6 +66,12 @@ main{
     padding-left: 25px;
     
 }
+
+/*- Mouse over do Menu no topo -*/
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: var(--menu-hover);
+}
+
 
 /*----- Alinha o menu a direita no mobile -------*/
 @media (max-width: 992px){
@@ -125,7 +173,7 @@ footer{
 }
 
 footer{
-    background-color: #0871BA;
+    background-color: var(--azul-aero);
     margin-top: 40px;
 }
 
@@ -137,7 +185,7 @@ footer p{
 .titulo_pag{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 32px;
-    border-bottom: 2px solid #0871BA;
+    border-bottom: 2px solid var(--azul-aero);
     margin: 40px 0;
 }
 
@@ -161,7 +209,7 @@ footer p{
 .titulo_h4{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 28px;
-    color: #0871BA;
+    color: var(--azul-aero);
     margin-top: 40px;
 }
 
@@ -191,7 +239,7 @@ footer p{
 .btn{
     border-radius: 0;
     border: none;
-    background-color: #0871BA;
+    background-color: var(--azul-aero);
 }
 
 .espac{
@@ -281,7 +329,7 @@ p .quote{
 
 .ano{
     font-family: 'Bebas Neue', sans-serif;
-    color: #0871BA;
+    color: var(--azul-aero);
     font-size: 32px;
     margin-top: 35px;
     margin-bottom: 15px;
@@ -316,7 +364,7 @@ p .quote{
     text-transform: none;
     -webkit-appearance: button;
     
-    color: #0871ba;
+    color: var(--azul-aero);
     background: none;
     border: none;
 }
@@ -326,7 +374,7 @@ p .quote{
 }
 
 .link_video span:hover{
-    border-bottom: 1px solid #0871ba;
+    border-bottom: 1px solid var(--azul-aero);
     font-weight: bold;
 
 }
@@ -429,7 +477,7 @@ p .quote{
 }
 
 .menu_anos{
-    border-bottom: 2px solid #0871BA;
+    border-bottom: 2px solid var(--azul-aero);
     padding-top: 1.5px;
     text-align: right;
 }
@@ -480,7 +528,7 @@ p .quote{
 
 .erro-404 h1{
     font-size: 100px;
-    color: #0871BA;
+    color: var(--azul-aero);
     margin-top: 50px;
     margin-bottom: 40px;
 }
