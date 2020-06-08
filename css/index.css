@@ -5,7 +5,7 @@
         --background: #1f2226;
         --menu-hover: white;
         --menu-fundo: #262626;
-        --azul-aero: #0871ba;
+        --azul-aero: #0984dc;
     }
 }
 
@@ -61,7 +61,7 @@ main{
 }
 
 .menu .navbar-nav .item{
-    color: rgb(8, 113, 186);
+    color: var(--azul-aero);
     padding-right: 25px;
     padding-left: 25px;
     
@@ -246,60 +246,15 @@ footer p{
     margin-top: 40px;
 }
 
-
-/*----------------- Notícias -------------*/
-/*
-
-.noticia{
-    border-radius: 0;
-    margin-bottom: 40px;
-    background-color: #E5E5E5;
-}
-
-@media (min-width: 992px){
-    .noticia{
-        height: 370px;
+@media (prefers-color-scheme: dark) {
+    .patrocinios img{
+        background-color: #ddd;
+        padding: 20px 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
     }
-}
 
-.noticia .card-body .card-title{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 24px;
 }
-
-.card-body .card-text{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.card .card-img-top{
-    min-width: 343px;
-    min-height: 200px;
-    object-fit: cover;
-    text-align: center;
-    margin: auto;    
-}
-
-.noticia .card-body .botao{
-    text-align: right;
-}
-
-.noticia .mascara {
-    height: 200px;
-    overflow: hidden;
-}
-
-p .quote{
-    font-weight: 800;
-    border-left: 2px grey solid;
-}
-
-.noticia img{
-    border-radius: 0;
-}
-
-*/
 
 
 /*------------ Aviões ----------------------*/
@@ -316,6 +271,13 @@ p .quote{
 .icone{
     height: 30px;
     margin-right: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .icone{
+        filter: contrast(10%) brightness(140%);
+    }
+
 }
 
 .resumo_conquistas p{
@@ -512,6 +474,7 @@ p .quote{
 
 .card{
     border: none;
+    background-color: var(--background);
 }
 
 @media (min-width: 768px){
