@@ -1,4 +1,12 @@
 /*- Modo ESCURO e CLARO, seguindo a definição do sistema -*/
+:root {
+    --text-color: black;
+    --background: white;
+    --menu-hover: #4C4C4C;
+    --menu-fundo: white;
+    --azul-aero: #0871ba;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --text-color: #e6e6e6;
@@ -6,16 +14,6 @@
         --menu-hover: white;
         --menu-fundo: #262626;
         --azul-aero: #0984dc;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --text-color: black;
-        --background: white;
-        --menu-hover: #4C4C4C;
-        --menu-fundo: white;
-        --azul-aero: #0871ba;
     }
 }
 
