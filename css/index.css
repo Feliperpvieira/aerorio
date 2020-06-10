@@ -1,9 +1,11 @@
 /*- Modo ESCURO e CLARO, seguindo a definição do sistema -*/
 :root {
+    /*- Cor do texto e fundo da página -*/
     --text-color: black;
     --background: white;
+    /*- Mouse hover dos links do menu -*/
     --menu-hover: #4C4C4C;
-    --menu-fundo: white;
+    /*- Tom de Azul / Aviso: A cor do Footer é definida nele, não segue a variável -*/
     --azul-aero: #0871ba;
 }
 
@@ -12,7 +14,6 @@
         --text-color: #e6e6e6;
         --background: #2e2f33;
         --menu-hover: white;
-        --menu-fundo: #262626;
         --azul-aero: #0984dc;
     }
 }
@@ -171,7 +172,7 @@ footer{
 }
 
 footer{
-    background-color: var(--azul-aero);
+    background-color: #0871ba;
     margin-top: 40px;
 }
 
