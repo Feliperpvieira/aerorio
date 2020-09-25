@@ -204,6 +204,71 @@ footer p{
     }
 }
 
+
+/*----------- Index -----------------*/
+.index_conquistas{
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+.index_conquistas .alinha{
+    padding: 0;
+}
+
+.index_conquistas .ponto_destaque{
+    font-size: 1.5em;
+    padding-left: 0;
+    
+    text-align: center;
+}
+
+.img_render_index{
+    padding: 0.7em;
+}
+
+.index_conquistas svg{
+    width: 1.7em;
+    
+    display: block;
+    margin: auto;
+}
+
+.index_conquistas .titulo_h4{
+    margin-top: 0.2em;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.p_index{
+    font-size: 1.2em;
+}
+
+
+@media (max-width: 767px){
+    
+    .index_conquistas{
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    
+    .index_conquistas .ponto_destaque{
+        font-size: 1.2em;
+    }
+    
+    .index_conquistas svg{
+        width: 1.2em;
+    }
+    
+    .index_conquistas .titulo_h4{
+        margin-bottom: 0.8em;
+    }
+    
+    .img_render_index{
+        margin-top: 1em;
+    }
+}
+
+
 /*----------- Patrocínios -----------------*/
 .titulo_h4{
     font-family: 'Bebas Neue', sans-serif;
