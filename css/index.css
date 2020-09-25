@@ -603,7 +603,7 @@ footer p{
 
 
 
-/*------------ Teste index ----------------------*/
+/*------------ Vídeo index ----------------------*/
 /* Container para imagem e texto */
 .video_container {
     position: relative;
@@ -673,4 +673,13 @@ footer p{
 
 .paddingzero{
     padding: 0;
+}
+
+
+
+/*------------ Mídias ----------------------*/
+
+.btn-midias-margin div{
+    margin-top: 0.6em;
+    margin-bottom: 1.2em;
 }
