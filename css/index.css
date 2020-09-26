@@ -609,7 +609,7 @@ footer p{
 }
 
 .img_render_index{
-    padding: 0.7em;
+    padding: 0.4em;
 }
 
 .index_conquistas svg{
@@ -665,11 +665,12 @@ footer p{
 
 .index_botoes{
     margin-top: 4em;
-    margin-bottom: 5em;
+    margin-bottom: 6em;
 }
 
-.index_botoes div{
-    margin-top: 2em;
+.index_botoes button{
+    margin-bottom: 1em;
+    margin-top: 1.5em;
 }
 
 .p_index{
