@@ -612,10 +612,6 @@ footer p{
     text-align: center;
 }
 
-.img_render_index{
-    padding: 0.4em;
-}
-
 .index_conquistas svg{
     width: 3em;
     
@@ -630,8 +626,9 @@ footer p{
     font-size: 2.8em;
 }
 
-.p_index{
+.p_index p{
     font-size: 1.2em;
+    margin-bottom: 1em;
 }
 
 .link-index{
@@ -640,27 +637,27 @@ footer p{
     font-weight: 500;
 }
 
-
-@media (max-width: 767px){
-    
-    .index_conquistas{
-        margin-top: 3em;
-        margin-bottom: 3em;
-    }
-    
-    .index_conquistas .ponto_destaque{
-        font-size: 1.6em;
-    }
-    
-    .index_conquistas svg{
-        width: 2.5em;
-    }
-    
-    .index_conquistas .titulo_h4{
-        margin-bottom: 0.8em;
-    }
-    
+/*-- Hover da lista de trofeus index --*/
+.trofeu-txt{
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.2s;
 }
+
+.trofeu-txt .st0{
+    fill: var(--text-color);
+    transition: 0.2s;
+}
+
+.trofeu-txt:hover{
+    color: var(--azul-aero);
+    text-decoration: underline var(--azul-aero);
+}
+
+.trofeu-txt:hover .st0{
+    fill: var(--azul-aero);
+}
+/*-- fim do hover --*/
 
 
 .botao-index{
@@ -683,8 +680,30 @@ footer p{
     margin-top: 1.5em;
 }
 
-.p_index{
-    margin-top: 2em;
+/*-- mobile --*/
+@media (max-width: 767px){
+    
+    .index_conquistas{
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    
+    .index_conquistas .ponto_destaque{
+        font-size: 1.6em;
+    }
+    
+    .index_conquistas svg{
+        width: 2.5em;
+    }
+    
+    .index_conquistas .titulo_h4{
+        margin-bottom: 0.8em;
+    }
+    
+    .p_index{
+        margin-bottom: 2em;
+    }
+    
 }
 
 
