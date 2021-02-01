@@ -671,13 +671,39 @@ footer p{
 }
 
 .index_botoes{
-    margin-top: 4em;
-    margin-bottom: 6em;
+    margin-bottom: 7em;
 }
 
 .index_botoes button{
     margin-bottom: 1em;
     margin-top: 1.5em;
+}
+
+.email-link{
+    margin-top: 6em;
+}
+
+.email-link .titulo_h4{
+    margin-top: 0;
+    font-size: 34px;
+}
+
+.email-link a{
+    display: inline-block;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    border: 4px solid var(--azul-aero);
+    margin-top: 22px;
+    font-size: 22px;
+    color: var(--azul-aero);
+    background-color: var(--background);
+    transition: 0.2s;
+}
+
+.email-link a:hover{
+    color: white;
+    background-color: var(--azul-aero);
 }
 
 /*-- mobile --*/
