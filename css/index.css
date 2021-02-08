@@ -348,6 +348,11 @@ footer p{
 
 }
 
+.linha-pc-lado{
+    margin-top: 16px;
+    margin-bottom: 26px;
+}
+
 /*------------ CSS do Popup do vídeo ----------------------*/
 #video-popup-container {
   display:none;
