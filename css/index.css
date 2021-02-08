@@ -208,9 +208,10 @@ footer p{
 /*----------- Patrocínios -----------------*/
 .titulo_h4{
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     color: var(--azul-aero);
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 16px;
 }
 
 .primeiro_titulo{
@@ -685,7 +686,7 @@ footer p{
 
 .email-link .titulo_h4{
     margin-top: 0;
-    font-size: 34px;
+    margin-bottom: 0;
 }
 
 .email-link a{
