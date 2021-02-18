@@ -284,7 +284,11 @@ footer p{
 }
 
 .linha-1-avioes{
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+.linha_avioes{
+    margin-top: 40px;
 }
 
 .resumo_conquistas p{
