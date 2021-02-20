@@ -357,6 +357,10 @@ footer p{
     margin-bottom: 26px;
 }
 
+.ultima_linha{ /*--- margem pra afastar o rodapé ---*/
+    margin-bottom: 120px;
+}
+
 /*------------ CSS do Popup do vídeo ----------------------*/
 #video-popup-container {
   display:none;
@@ -446,6 +450,10 @@ footer p{
 @media (max-width: 992px){
     .padding_right{
         padding-right: 0;
+    }
+    
+    .margin-top-avioes-mobile{ /*--- Margem no top nos anos que ficam lado a lado no PC ---*/
+        margin-top: 40px;
     }
 }
 
