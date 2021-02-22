@@ -766,3 +766,49 @@ footer p{
 .img-scroll-midias{
     margin-top: 2.5em;
 }
+
+
+
+/*------------HOME - Linha do Processo seletivo------------*/
+.botoes-ps{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botoes-ps div{
+    margin-bottom: 10px;
+}
+
+.botoes-ps h4{
+    margin: 0;
+}
+
+.txt-destaque-ps{
+    margin-bottom: 45px;
+}
+
+.txt-destaque-ps h3{
+    color: var(--azul-aero);
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.txt-ps{
+    font-size: 18px;
+}
+
+.txt-ps .email-link{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.txt-ps .email-link a{
+    margin-top: 0;
+}
+
+.txt-ps img{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
