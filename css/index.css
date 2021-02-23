@@ -868,3 +868,21 @@ footer p{
 .margin-bottom-ps .titulo_h4{
     margin-top: 22px;
 }
+
+/*------------Linha Proc. Selet. Página Inicial------------*/
+.linha-ps{
+    background-color: var(--azul-aero);
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.linha-ps h3{
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.linha-ps span{
+    font-weight: 400;
+}
