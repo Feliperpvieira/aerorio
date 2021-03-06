@@ -262,7 +262,7 @@ footer p{
 /*------------ Aviões ----------------------*/
 @media (max-width: 992px){
     .east{
-        margin-top: 25px;
+        margin-top: 65px;
     }
 }
 
@@ -273,6 +273,16 @@ footer p{
 .icone{
     height: 30px;
     margin-right: 10px;
+}
+
+.premios .row{
+    margin-top: 25px;
+}
+
+@media (min-width: 768px){
+    .premios .margin-md-top-menor{
+        margin-top: 10px;
+    }
 }
 
 /*---- Cor dos ícones fica mais claro no modo escuro ----*/
@@ -288,7 +298,7 @@ footer p{
 }
 
 .linha_avioes{
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .resumo_conquistas p{
